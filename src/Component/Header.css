@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+   background-color: brown;
+   color: #fff;
+   height: 60px;
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+.right-nav{
+    display: flex;
+   justify-content: space-between;
+   height: 100%;
+   align-items: center;
+}
+
+.right-nav a{
+text-decoration: none;
+margin-left: 10px;
+color: #fff;
+padding: 10px;
+}
